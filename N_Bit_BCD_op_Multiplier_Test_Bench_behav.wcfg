@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="N_Bit_BCD_op_Multiplier_Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="N_Bit_BCD_op_Multiplier_Test_Bench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="230"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/N_Bit_BCD_op_Multiplier_Test_Bench/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/N_Bit_BCD_op_Multiplier_Test_Bench/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/N_Bit_BCD_op_Multiplier_Test_Bench/a_in" type="array">
+      <obj_property name="ElementShortName">a_in[4:0]</obj_property>
+      <obj_property name="ObjectShortName">a_in[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/N_Bit_BCD_op_Multiplier_Test_Bench/b_in" type="array">
+      <obj_property name="ElementShortName">b_in[4:0]</obj_property>
+      <obj_property name="ObjectShortName">b_in[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/N_Bit_BCD_op_Multiplier_Test_Bench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/N_Bit_BCD_op_Multiplier_Test_Bench/out" type="array">
+      <obj_property name="ElementShortName">out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/N_Bit_BCD_op_Multiplier_Test_Bench/finish" type="logic">
+      <obj_property name="ElementShortName">finish</obj_property>
+      <obj_property name="ObjectShortName">finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/N_Bit_BCD_op_Multiplier_Test_Bench/bcd" type="array">
+      <obj_property name="ElementShortName">bcd[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bcd[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/N_Bit_BCD_op_Multiplier_Test_Bench/n_bits" type="array">
+      <obj_property name="ElementShortName">n_bits[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n_bits[31:0]</obj_property>
+   </wvobject>
+</wave_config>
